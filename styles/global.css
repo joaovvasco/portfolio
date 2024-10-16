@@ -116,5 +116,16 @@ h3{
     p{
         margin-top: 8px;
     }
+}
 
+.tech-knowledge{
+    display: inline-flex;
+    gap:8px;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    padding-block: 9px;
+    padding-inline: 16px;
 }
