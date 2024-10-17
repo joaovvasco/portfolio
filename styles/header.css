@@ -1,15 +1,15 @@
 body > img{
         width: 42px;
-        margin-block: 94px 57px;
+        /* margin-block: 94px 57px; */
         margin-left: 50%;
 }
 
 header{
     display: flex;
     flex-direction: column;
-    height: 770px;
+    
     padding-top: 120px;
-
+    padding: 94px;
     align-items: center;
 
     background: url(/assets/Background_Intro.png);
@@ -37,18 +37,23 @@ header{
     flex-direction: column;
     align-items: center;
     width: 680px;
+    
     .subtitle{
         span{
             color: var(--red);
         }
+        
     }
 
     h1{
         text-align: center;
+        margin-top: 8px;
+        
     }
 
     p:not(.subtitle){
         text-align: center;
+        margin-top: 20px;
     }
 }
 
@@ -56,7 +61,7 @@ header{
         
     position: relative;
     width: 112px;
-    margin-bottom: 56px;
+    margin-bottom: 64px;
 
     #user-ico {
         border: 3px solid red;
