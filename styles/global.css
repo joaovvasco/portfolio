@@ -38,6 +38,7 @@
 
 h1{
     font: var(--title-lg);
+    color: var(--gray-500);
 }
 
 h2 {
@@ -120,12 +121,20 @@ h3{
 
 .tech-knowledge{
     display: inline-flex;
-    gap:8px;
+    gap: 10.25px;
     align-items: center;
     justify-content: center;
     
     background-color: var(--gray-300);
     border-radius: 999px;
-    padding-block: 9px;
-    padding-inline: 16px;
+    padding-inline: 18.25px;
+
+    img{
+        margin-block: 11px;
+    }
+    
+    p{
+        font: var(--text-md);
+        color: var(--gray-500);
+    }
 }
